@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?w=996&t=st=1705907965~exp=1705908565~hmac=8985f499313caca3f68a34e4cc44ae766be734966c80dca1834ae2017f8f0762);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 400;
+    text-decoration: 3px dotted underline;
+    color: whitesmoke;
+}
+.stopWatch{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+.timerDisplay{
+    font-size:4rem;
+    font-weight: 700;
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons button{
+    height: 3.5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid whitesmoke;
+    margin-top: 2rem;
+    font-size: 1rem;
+    background:transparent;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+}
